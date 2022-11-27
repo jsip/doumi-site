@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.disclaimer-logo {
+  @apply h-auto w-24 self-center;
+}
+
+.icon-wrap {
+  @apply w-2/6 h-auto gap-x-2;
+}
+
+.icon-bar-svg {
+  height: 35px;
+  width: 35px;
+}
