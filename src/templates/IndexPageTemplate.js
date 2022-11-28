@@ -39,7 +39,7 @@ const IndexPageTemplate = ({
         </defs>
       </svg>
       {/* Header */}
-      <div className="relative bg-green-600 overflow-hidden">
+      <div className="relative bg-green-800 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="relative z-10 pt-24 pb-12 bg-green-600 sm:pt-28 sm:pb-14 md:pt-32 md:pb-16 lg:w-1/2 lg:pt-44 lg:pb-24 xl:pt-48 xl:pb-32">
             <svg
@@ -118,9 +118,6 @@ const IndexPageTemplate = ({
       <Container>
         <div className="flex justify-between items-baseline">
           <SectionHeading>Pourquoi travailler avec nous?</SectionHeading>
-          <Link className="text-green-700 underline hover:text-green-800" to="/projects">
-            Témoignages
-          </Link>
         </div>
         <div className="mt-8">
           <CardSet posts={posts} />
@@ -137,6 +134,13 @@ const IndexPageTemplate = ({
           {about.button.label}
         </SecondaryButton>
       </TextImageSplit>
+
+      <div className="m-auto text-center mt-8 max-w-4xl">
+        <p className="text-gray-400 dark:text-gray-300">
+          Grâce à la solidité et à la sécurité d'envergure mondiale de manuvie, vous bénéficiez des ressources et de l'expertise d'une société digne de confiance offrant des solutions d'assurance vie, d'assurance maladie et de gestion de patrimoine.
+        </p>
+      </div>
+      <hr className="my-12 text-gray-300 max-w-5xl m-auto" />
     </div>
   )
 }

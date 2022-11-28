@@ -5,14 +5,12 @@ image: /img/chuttersnap-ifmqouokaoa-unsplash.jpg
 heading: Jérémie Dumas | Conseiller en Placements
 subheading: "Placements Manuvie Incorporée"
 about:
-  heading: Who we are
-  description: "Our team of architects, gardeners and enginners is working with
-    clients all over the world to transform urban spaces with the best nature
-    provides."
+  heading: Nous prenons soin de votre santé financière
+  description: "Notre équipe possède une vaste expérience pour aider nos clients à naviguer dans un monde complexe et en constante évolution. De la planification financière à la gestion des investissements et dans tous les types d'environnements de marché, nous serons présents pour vous guider."
   image:
     image: /img/leon-tho1_oukbg0-unsplash.jpg
     alt: people working in agency
   button:
     url: /about
-    label: Find out more
+    label: En découvrir davantage
 ---

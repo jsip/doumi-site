@@ -1,12 +1,12 @@
 ---
 templateKey: project-page
-title: Rooftop gardens with view of Syndey skyline
+title: Stratégies Fiscales
 date: 2021-07-21T10:14:24.359Z
 featured: true
 featuredimage:
   image: /img/chuttersnap-nxjyzlbnyuq-unsplash.jpg
   alt: rooftop garden
-location: Sydney, Australia
+location: Éclaircir le monde complexe de la fiscalité.
 ---
 Photo by [CHUTTERSNAP](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/collections/kDVcVtpJNeA/urban-garden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

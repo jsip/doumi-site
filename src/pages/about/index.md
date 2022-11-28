@@ -1,8 +1,8 @@
 ---
 templateKey: about-page
-title: About
-heading: About us
-subheading: Our values, mission and culture
+title: Notre Équipe
+heading: Notre Équipe
+subheading: Nos valeurs, notre mission, et culture
 team:
   - name: Courtney Henry
     image: /img/joanna-nix-walkup-p7zgmc33s0u-unsplash.jpg

@@ -1,6 +1,6 @@
 ---
 templateKey: project-page
-title: New office spaces in central Kopenhagen
+title: Planification Successorale
 date: 2021-08-14T15:04:51.597Z
 featured: false
 featuredimage:

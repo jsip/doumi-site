@@ -17,7 +17,6 @@ const PostList = ({ posts }) => {
                 {post.frontmatter.title}
               </Link>
             </h2>
-            <small>Date: {post.frontmatter.date}</small>
             <p
               dangerouslySetInnerHTML={{
                 __html: post.frontmatter.description || post.excerpt,

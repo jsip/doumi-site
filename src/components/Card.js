@@ -14,7 +14,6 @@ function Card({ image, heading, date, location, url, ...rest }) {
         <span className="uppercase text-green-700 font-bold text-xs tracking-wide">
           {location}
         </span>
-        <span className="text-sm text-gray-600">{date}</span>
       </div>
       <h3 className="mt-1 font-bold text-lg group-hover:underline">
         {heading}

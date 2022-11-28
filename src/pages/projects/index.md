@@ -1,6 +1,6 @@
 ---
 templateKey: projects-page
-title: Projects
-heading: Our Projects
-subheading: Transforming urban spaces all over the world
+title: Notre Approche
+heading: Notre Approche
+subheading: Les conseils financiers devraient être intégrés.
 ---
