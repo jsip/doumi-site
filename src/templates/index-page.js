@@ -18,6 +18,7 @@ const IndexPage = ({ data }) => {
       />
       <IndexPageTemplate
         heading={fm.heading}
+        headingMeta={fm.headingMeta}
         subheading={fm.subheading}
         image={fm.image}
         posts={posts}
@@ -41,6 +42,7 @@ export const indexPageQuery = graphql`
           }
         }
         heading
+        headingMeta
         subheading
         about {
           description

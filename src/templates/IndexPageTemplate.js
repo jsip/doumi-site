@@ -7,6 +7,7 @@ import Image from "../components/Image"
 
 const IndexPageTemplate = ({
   heading,
+  headingMeta,
   subheading,
   image,
   posts = [],
@@ -40,7 +41,7 @@ const IndexPageTemplate = ({
       </svg>
       {/* Header */}
       <div className="relative bg-green-800 overflow-hidden">
-        <div className="max-w-7xl mx-auto">
+        <div className="px-20 mx-auto">
           <div className="relative z-10 pt-24 pb-12 bg-green-600 sm:pt-28 sm:pb-14 md:pt-32 md:pb-16 lg:w-1/2 lg:pt-44 lg:pb-24 xl:pt-48 xl:pb-32">
             <svg
               className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-green-600 transform translate-x-1/2"
@@ -52,19 +53,22 @@ const IndexPageTemplate = ({
               <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
 
-            <div className="relative z-20 mx-auto lg:max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="relative z-20 mx-auto lg:max-w-7xl px-8 sm:px-12 lg:px-16">
               <div className="text-center max-w-md mx-auto lg:max-w-lg lg:mx-0 lg:text-left">
-                <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
+                <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
                   {heading}
                 </h1>
-                <p className="mt-2 text-green-100 sm:mt-4 lg:mt-6 lg:text-xl">
+                <p className="text-green-100 lg:text-2xl font-bold">
+                  {headingMeta}
+                </p>
+                <p className="mt-2 text-green-100 sm:mt-4 lg:mt-6 lg:text-lg">
                   {subheading}
                 </p>
                 <div className="flex flex-wrap gap-x-6 mt-6 lg:mt-10 items-center">
                   <PrimaryButton to="/contact">
                     Contactez-nous
                   </PrimaryButton>
-                  <div className="flex gap-x-6">
+                  <div className="flex gap-x-6 mt-4 lg:mt-0">
                     <div className="icon-wrap border-l-2 border-green-600 hover:border-white">
                       <Link target="_blank" className="text-white no-underline" to="https://www.linkedin.com/in/j%C3%A9r%C3%A9miedumas/">
                         <svg className="icon-bar-svg">
@@ -109,12 +113,57 @@ const IndexPageTemplate = ({
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
             allowFullScreen
+            className="hidden lg:block"
             style={{ width: "100%", height: "100%", transform: "scale(2)" }}
           />
         </div>
       </div>
 
       {/* Featured projects */}
+      <Container className="mx-auto">
+        <div className="flex justify-center gap-x-16 mx-auto">
+          <div>
+            <div className="text-center w-40 h-40 rounded-full border-8 border-green-600 pt-10 mx-auto bg-gray-100 hover:bg-gray-300">
+              <span className="text-5xl font-bold text-green-600 align-middle">
+                6
+              </span>
+              <span className="block text-xl font-medium text-green-600 align-middle">
+                milliards
+              </span>
+            </div>
+            <span className="text-gray-500 font-semibold text-lg mt-4 pt-4 block">
+              actifs sous gestion
+            </span>
+          </div>
+          <div>
+            <div className="text-center w-40 h-40 rounded-full border-8 border-green-600 pt-10 mx-auto bg-gray-100 hover:bg-gray-300">
+              <span className="text-5xl font-bold text-green-600 align-middle">
+                1
+              </span>
+              <span className="block text-xl font-medium text-green-600 align-middle">
+                million
+              </span>
+            </div>
+            <span className="text-gray-500 font-semibold text-lg mt-4 pt-4 block">
+              actif moyen par famille
+            </span>
+          </div>
+          <div>
+            <div className="text-center w-40 h-40 rounded-full border-8 border-green-600 pt-10 mx-auto bg-gray-100 hover:bg-gray-300">
+              <span className="text-5xl font-bold text-green-600 align-middle">
+                98
+              </span>
+              <span className="block text-xl font-bold text-green-600 align-middle">
+                pourcent
+              </span>
+            </div>
+            <span className="text-gray-500 font-semibold text-lg mt-4 pt-4 block">
+              taux de rétention
+            </span>
+          </div>
+        </div>
+      </Container>
+
       <Container>
         <div className="flex justify-between items-baseline">
           <SectionHeading>Pourquoi travailler avec nous?</SectionHeading>

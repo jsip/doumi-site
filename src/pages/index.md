@@ -2,7 +2,8 @@
 templateKey: index-page
 title: Jérémie Dumas - Placements Manuvie
 image: /img/chuttersnap-ifmqouokaoa-unsplash.jpg
-heading: Jérémie Dumas | Conseiller en Placements
+heading: Jérémie Dumas
+headingMeta: Conseiller en Placements
 subheading: "Placements Manuvie Incorporée"
 about:
   heading: Nous prenons soin de votre santé financière
